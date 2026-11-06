@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Big angry black tabby cat</title>
+  <desc id="desc">A very large black tabby cat with huge angry eyes and saliva pouring from its open mouth.</desc>
+  <defs>
+    <radialGradient id="fur" cx="42%" cy="34%" r="72%">
+      <stop offset="0" stop-color="#3b3b42"/>
+      <stop offset="0.6" stop-color="#17171c"/>
+      <stop offset="1" stop-color="#08080b"/>
+    </radialGradient>
+    <radialGradient id="eyeWhite" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#fff8ad"/>
+      <stop offset="0.72" stop-color="#e8d84f"/>
+      <stop offset="1" stop-color="#a79a1d"/>
+    </radialGradient>
+    <linearGradient id="mouth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e101d"/>
+      <stop offset="1" stop-color="#16060b"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18"/>
+      <feOffset dy="18"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.55"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1000" fill="#d8d2c8"/>
+  <ellipse cx="600" cy="890" rx="455" ry="58" fill="#756e68" opacity="0.35"/>
+
+  <g filter="url(#shadow)">
+    <path d="M298 455 C242 332 222 173 279 91 L438 239 C494 211 706 211 762 239 L921 91 C978 173 958 332 902 455 Z" fill="url(#fur)" stroke="#050507" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M283 112 L426 245 L301 196 Z M917 112 L774 245 L899 196 Z" fill="#4c2630" opacity="0.9"/>
+    <path d="M292 119 L394 226 L319 183 Z M908 119 L806 226 L881 183 Z" fill="#9b5861" opacity="0.42"/>
+
+    <path d="M296 402 C316 286 421 222 600 222 C779 222 884 286 904 402 L879 672 C850 829 760 898 600 900 C440 898 350 829 321 672 Z" fill="url(#fur)" stroke="#050507" stroke-width="18"/>
+
+    <g fill="none" stroke="#77777e" stroke-width="19" stroke-linecap="round" opacity="0.72">
+      <path d="M381 270 C429 311 459 357 469 417"/>
+      <path d="M433 246 C478 291 497 337 502 392"/>
+      <path d="M819 270 C771 311 741 357 731 417"/>
+      <path d="M767 246 C722 291 703 337 698 392"/>
+      <path d="M515 229 C538 271 548 313 548 350"/>
+      <path d="M685 229 C662 271 652 313 652 350"/>
+      <path d="M353 602 C413 628 444 653 470 682"/>
+      <path d="M847 602 C787 628 756 653 730 682"/>
+    </g>
+
+    <path d="M344 374 Q452 274 556 351 Q510 468 407 470 Q352 451 344 374 Z" fill="url(#eyeWhite)" stroke="#08080a" stroke-width="18"/>
+    <path d="M856 374 Q748 274 644 351 Q690 468 793 470 Q848 451 856 374 Z" fill="url(#eyeWhite)" stroke="#08080a" stroke-width="18"/>
+    <path d="M372 340 Q455 285 544 345" fill="none" stroke="#08080a" stroke-width="32" stroke-linecap="round"/>
+    <path d="M828 340 Q745 285 656 345" fill="none" stroke="#08080a" stroke-width="32" stroke-linecap="round"/>
+    <ellipse cx="459" cy="381" rx="23" ry="66" fill="#050507"/>
+    <ellipse cx="741" cy="381" rx="23" ry="66" fill="#050507"/>
+    <circle cx="450" cy="350" r="10" fill="#fff"/>
+    <circle cx="732" cy="350" r="10" fill="#fff"/>
+
+    <path d="M529 510 Q600 466 671 510 L650 555 Q600 581 550 555 Z" fill="#bd6370" stroke="#08080a" stroke-width="15"/>
+    <path d="M600 549 Q600 613 600 632" fill="none" stroke="#08080a" stroke-width="13" stroke-linecap="round"/>
+    <path d="M469 590 Q600 535 731 590 Q716 766 600 795 Q484 766 469 590 Z" fill="url(#mouth)" stroke="#08080a" stroke-width="20"/>
+    <path d="M489 600 Q600 637 711 600 L697 654 Q600 686 503 654 Z" fill="#f1e8df" stroke="#08080a" stroke-width="9"/>
+    <path d="M518 685 Q600 738 682 685 Q650 771 600 778 Q550 771 518 685 Z" fill="#d46378"/>
+    <path d="M486 618 L507 662 M530 631 L542 674 M670 631 L658 674 M714 618 L693 662" stroke="#a42d42" stroke-width="8"/>
+
+    <g fill="none" stroke="#bbb8b7" stroke-width="9" stroke-linecap="round" opacity="0.9">
+      <path d="M477 575 C389 555 311 548 241 561"/>
+      <path d="M468 604 C371 606 300 627 231 661"/>
+      <path d="M723 575 C811 555 889 548 959 561"/>
+      <path d="M732 604 C829 606 900 627 969 661"/>
+    </g>
+
+    <g fill="#bceaf0" stroke="#75cbd5" stroke-width="4">
+      <path d="M548 744 C553 770 551 794 558 814 C564 830 580 829 583 812 C586 790 577 768 575 745 Z"/>
+      <path d="M590 764 C592 803 591 842 599 875 C604 895 622 894 625 873 C629 840 619 800 617 764 Z"/>
+      <path d="M641 745 C638 774 639 799 632 819 C627 835 611 832 610 815 C608 790 618 766 620 745 Z"/>
+    </g>
+  </g>
+</svg>
